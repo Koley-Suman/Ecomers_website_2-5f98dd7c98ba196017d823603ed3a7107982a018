@@ -1,0 +1,24 @@
+.cart_item_box{
+    width: 100%;
+    height: 90px;
+    // background-color: red;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+
+    .cart_image{
+        height: 100%;
+        width: 90px;
+    }
+
+    .cart_name_box{
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,40 @@
+.checkoutpage{
+    width: 100vw;
+    height: auto;
+}
+
+.checkOutItem{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+    .checkoutImg{
+        height: 100%;
+        width: 12%;
+    }
+
+    .details_box{
+        height: 100%;
+        width: 15%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .buttons{
+        button{
+            cursor: pointer;
+        }
+        h3{
+            padding: 10px;
+        }
+    }
+    .cancel_button{
+        cursor: pointer;
+    }
+}

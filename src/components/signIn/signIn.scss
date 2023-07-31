@@ -1,0 +1,54 @@
+.signIn{
+    width: 50%;
+    height: 50%;
+    // background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .signInBox{
+        width: 50%;
+        height: 100%;
+        // background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        h2{
+            margin: 1px;
+            color: rgb(54, 54, 54);
+            font-family: sans-serif;
+            font-weight: 500;
+            
+        }
+        form{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+            .buttons{
+                width: 100%;
+                display: flex;
+                justify-content: stretch;
+                gap: 6px;
+
+                button{
+                    flex-grow: 1;
+                    button{
+                        padding: 0px;
+                        color: inherit;
+                        width: 0px;
+                    }
+                }
+            }
+        }
+        span{
+            a{
+                color: rgb(0, 94, 255);
+                text-decoration: none;
+            }
+        }
+    }
+}

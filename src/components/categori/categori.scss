@@ -1,0 +1,10 @@
+div.catagori_page{
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: auto;
+    // background-color: red;
+}
